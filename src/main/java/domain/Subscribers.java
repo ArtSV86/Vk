@@ -7,5 +7,5 @@ public class Subscribers {
     private String allSubscribers;
     private int numberOfSubscribers;
 
- }
+}
 

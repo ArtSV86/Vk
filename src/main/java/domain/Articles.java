@@ -7,4 +7,4 @@ public class Articles {
     private String allArticles;
     private int numberOfArticles;
 
-   }
+}
