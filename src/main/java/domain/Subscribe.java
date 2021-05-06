@@ -1,6 +1,6 @@
 package domain;
 
 public class Subscribe {
-    private int canSubscribe;
+    private boolean canSubscribe;
     private int news;
 }
