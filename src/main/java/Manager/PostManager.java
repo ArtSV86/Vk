@@ -1,15 +1,21 @@
 package Manager;
 
-import domain.Post;
+import domain.*;
 
 public class PostManager {
-    private Post[] search;
+    private Post[] posts;
+    private SearchManager searchManager;
+    private DeleteManager deleteManager;
 
-    public Post[] search() {
+
+    public String getPosts() {
+        Post[] posts = searchManager.search();
         return null;
     }
 
     public void delete() {
+        Post[] posts = deleteManager.delete();
     }
 
 }
+
