@@ -8,7 +8,7 @@ public class PostManager {
     private DeleteManager deleteManager;
 
 
-    public String getPosts() {
+    public String search() {
         Post[] posts = searchManager.search();
         return null;
     }
