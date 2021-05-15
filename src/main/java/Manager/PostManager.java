@@ -4,17 +4,21 @@ import domain.*;
 
 public class PostManager {
     private Post[] posts;
-    private SearchManager searchManager;
-    private DeleteManager deleteManager;
 
 
-    public String search() {
-        Post[] posts = searchManager.search();
+    public Post[] search() {
+        int ownerId;
+        String domain;
+        String query;
+        boolean ownersOnly;
+        int count = 20;
+        int offset;
         return null;
     }
 
     public void delete() {
-        Post[] posts = deleteManager.delete();
+        int ownerId;
+        int postId;
     }
 
 }
